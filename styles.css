@@ -1,0 +1,65 @@
+/*************************************
+* CSS Reset
+*************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*************************************
+* General styles
+*************************************/
+
+body {
+    line-height: 1.6;
+    color: #fdfdfd;
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.magic8ball {
+    background-color: #020202;
+    border-radius: 50%;
+    width: 22em;
+    height: 22em;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fortune-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 3px;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.fortune-triangle {
+    width: 0%; 
+    height: 0%; 
+    border-left: 3em solid transparent;
+    border-right: 3em solid transparent;
+    border-top: 3em solid #0d14cb;
+    display: flex;
+    justify-content: center;
+}
+
+.fortune {
+    background-color: green;
+    color: #fff;
+    
+}
